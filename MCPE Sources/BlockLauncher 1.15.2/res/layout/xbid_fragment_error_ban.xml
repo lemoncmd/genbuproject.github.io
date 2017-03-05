@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:id="@+id/xbid_greeting_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Error_Greeting" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/xbid_ban_error_body_android" style="@style/Error_Normal" />
+    </LinearLayout>
+</ScrollView>

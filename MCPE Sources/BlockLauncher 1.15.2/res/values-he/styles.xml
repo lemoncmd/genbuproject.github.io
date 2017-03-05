@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="accountPickerUserTileUserNameBidirectional">
+    </style>
+    <style name="signOutCheckBoxBidirectional">
+    </style>
+    <style name="userTileImageBidirectional">
+    </style>
+</resources>

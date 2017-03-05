@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/icon_font_subtext_btn_icon_bg" android:layout_width="UNKNOWN_DATA_0x7f060046" android:layout_height="UNKNOWN_DATA_0x7f060046">
+        <com.microsoft.xbox.toolkit.ui.CustomTypefaceTextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/icon_font_subtext_icon" android:layout_width="UNKNOWN_DATA_0x7f060047" android:layout_height="UNKNOWN_DATA_0x7f060046" style="@style/xbox_symbol" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f060046" android:layout_marginLeft="@dimen/friendFinderPageMargin" android:layout_marginTop="2dp">
+        <com.microsoft.xbox.toolkit.ui.CustomTypefaceTextView android:textSize="18sp" android:id="@+id/icon_font_subtext_btn_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SUI_white" />
+        <com.microsoft.xbox.toolkit.ui.CustomTypefaceTextView android:textSize="15sp" android:id="@+id/icon_font_subtext_btn_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" style="@style/SUI_base" />
+    </LinearLayout>
+</merge>

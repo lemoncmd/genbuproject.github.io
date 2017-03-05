@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MimeTypes xmlns:android="http://schemas.android.com/apk/res/android">
+    <type mimetype="application/x-ptpatch" extension=".mod" />
+    <type mimetype="application/javascript" extension=".js" />
+    <type mimetype="text/coffeescript" extension=".coffee" />
+    <type mimetype="text/literate-coffeescript" extension=".litcoffee" />
+    <type mimetype="application/x-mpep" extension=".modpkg" />
+    <type mimetype="application/x-appx" extension=".appx" />
+    <type mimetype="application/vnd.android.package-archive" extension=".apk" />
+</MimeTypes>

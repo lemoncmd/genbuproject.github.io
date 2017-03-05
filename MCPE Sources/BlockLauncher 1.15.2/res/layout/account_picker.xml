@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" style="@style/activity">
+    <FrameLayout msaui:id="@+id/accountPickerBase" msaui:layout_width="match_parent" msaui:layout_height="wrap_content" />
+    <ListView msaui:id="@+id/listAccounts" msaui:layout_below="@+id/accountPickerBase" style="@style/accountPickerListView" />
+</RelativeLayout>

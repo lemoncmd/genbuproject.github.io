@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res-auto" xle:orientation="horizontal" xle:layout_width="match_parent" xle:layout_height="match_parent">
+    <com.microsoft.xbox.toolkit.ui.CustomTypefaceTextView xle:textSize="17sp" xle:textColor="@color/common_button_textcolor" xle:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" xle:id="@+id/iconfont_toggle_btn_icon" xle:padding="8dp" xle:visibility="invisible" xle:duplicateParentState="true" xle:layout_width="wrap_content" xle:layout_height="wrap_content" xle:includeFontPadding="false" style="@style/xbox_symbol" />
+    <com.microsoft.xbox.toolkit.ui.CustomTypefaceTextView xle:textSize="15sp" xle:textColor="@color/common_button_textcolor" xle:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" xle:id="@+id/iconfont_toggle_btn_text" xle:visibility="invisible" xle:duplicateParentState="true" xle:layout_width="wrap_content" xle:layout_height="wrap_content" xle:layout_marginLeft="8dp" xle:includeFontPadding="false" xle:typefaceSource="fonts/SegoeWP.ttf" />
+</merge>

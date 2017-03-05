@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101004d">
+    <ImageView android:id="@+id/file_icon" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" style="@style/fileIcon" />
+    <TextView android:id="@+id/file_name" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/fileName" />
+</LinearLayout>

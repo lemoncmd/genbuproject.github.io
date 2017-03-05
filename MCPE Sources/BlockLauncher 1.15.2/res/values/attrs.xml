@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="com_facebook_confirm_logout">
+        <item>8</item>
+    </attr>
+    <attr name="com_facebook_login_text">
+        <item>2</item>
+    </attr>
+    <attr name="com_facebook_logout_text">
+        <item>2</item>
+    </attr>
+    <attr name="com_facebook_tooltip_mode">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </attr>
+    <attr name="com_facebook_preset_size">
+        <item>65536</item>
+        <item>-4</item>
+        <item>-3</item>
+        <item>-2</item>
+    </attr>
+    <attr name="com_facebook_is_cropped">
+        <item>8</item>
+    </attr>
+    <attr name="com_facebook_foreground_color">
+        <item>16</item>
+    </attr>
+    <attr name="com_facebook_object_id">
+        <item>2</item>
+    </attr>
+    <attr name="com_facebook_object_type">
+        <item>65536</item>
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </attr>
+    <attr name="com_facebook_style">
+        <item>65536</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </attr>
+    <attr name="com_facebook_auxiliary_view_position">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </attr>
+    <attr name="com_facebook_horizontal_alignment">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </attr>
+    <attr name="cardBackgroundColor">
+        <item>16</item>
+    </attr>
+    <attr name="cardCornerRadius">
+        <item>64</item>
+    </attr>
+    <attr name="cardElevation">
+        <item>64</item>
+    </attr>
+    <attr name="cardMaxElevation">
+        <item>64</item>
+    </attr>
+    <attr name="cardUseCompatPadding">
+        <item>8</item>
+    </attr>
+    <attr name="cardPreventCornerOverlap">
+        <item>8</item>
+    </attr>
+    <attr name="contentPadding">
+        <item>64</item>
+    </attr>
+    <attr name="contentPaddingLeft">
+        <item>64</item>
+    </attr>
+    <attr name="contentPaddingRight">
+        <item>64</item>
+    </attr>
+    <attr name="contentPaddingTop">
+        <item>64</item>
+    </attr>
+    <attr name="contentPaddingBottom">
+        <item>64</item>
+    </attr>
+    <attr name="font">
+        <item>2</item>
+    </attr>
+    <attr name="isUnderlined">
+        <item>8</item>
+    </attr>
+    <attr name="text">
+        <item>2</item>
+    </attr>
+    <attr name="maxWidth">
+        <item>65</item>
+    </attr>
+    <attr name="maxHeight">
+        <item>65</item>
+    </attr>
+    <attr name="aspectX">
+        <item>4</item>
+    </attr>
+    <attr name="aspectY">
+        <item>4</item>
+    </attr>
+    <attr name="fixDimension">
+        <item>131072</item>
+        <item>2</item>
+        <item>1</item>
+    </attr>
+    <attr name="headerText">
+        <item>2</item>
+    </attr>
+    <attr name="headerTextStyle">
+        <item>1</item>
+    </attr>
+    <attr name="headerTextTypefaceSource">
+        <item>2</item>
+    </attr>
+    <attr name="subHeaderText">
+        <item>2</item>
+    </attr>
+    <attr name="subHeaderTextStyle">
+        <item>1</item>
+    </attr>
+    <attr name="subHeaderTextTypefaceSource">
+        <item>2</item>
+    </attr>
+    <attr name="viewPagerTabLayoutStyle">
+        <item>1</item>
+    </attr>
+    <attr name="viewPagerHeaderStyle">
+        <item>1</item>
+    </attr>
+    <attr name="viewPagerBodyStyle">
+        <item>1</item>
+    </attr>
+    <attr name="text_title">
+        <item>3</item>
+    </attr>
+    <attr name="text_subtitle">
+        <item>3</item>
+    </attr>
+    <attr name="icon_uri">
+        <item>3</item>
+    </attr>
+    <attr name="typefaceSource">
+        <item>2</item>
+    </attr>
+    <attr name="twoLineHeaderViewHeaderStyle">
+        <item>1</item>
+    </attr>
+    <attr name="twoLineHeaderViewSubHeaderStyle">
+        <item>1</item>
+    </attr>
+    <attr name="disabled">
+        <item>8</item>
+    </attr>
+    <attr name="disableSound">
+        <item>8</item>
+    </attr>
+    <attr name="disabledImage">
+        <item>1</item>
+    </attr>
+    <attr name="enabledImage">
+        <item>1</item>
+    </attr>
+    <attr name="pressedImage">
+        <item>1</item>
+    </attr>
+    <attr name="disabledTextColor">
+        <item>16</item>
+    </attr>
+    <attr name="enabledTextColor">
+        <item>16</item>
+    </attr>
+    <attr name="alwaysClickable">
+        <item>8</item>
+    </attr>
+    <attr name="selectedState">
+        <item>4</item>
+    </attr>
+    <attr name="state">
+        <item>4</item>
+    </attr>
+    <attr name="src">
+        <item>1</item>
+    </attr>
+    <attr name="activityBody">
+        <item>1</item>
+    </attr>
+    <attr name="showTitleBar">
+        <item>8</item>
+    </attr>
+    <attr name="isTopLevel">
+        <item>8</item>
+    </attr>
+    <attr name="headerName">
+        <item>2</item>
+    </attr>
+    <attr name="minScreenPercent">
+        <item>4</item>
+    </attr>
+    <attr name="buttonIcon">
+        <item>1</item>
+    </attr>
+    <attr name="iconPressed">
+        <item>1</item>
+    </attr>
+    <attr name="iconSymbolText">
+        <item>2</item>
+    </attr>
+    <attr name="iconSymbolSize">
+        <item>64</item>
+    </attr>
+    <attr name="iconSymbolColor">
+        <item>16</item>
+    </attr>
+    <attr name="iconSymbolTypeface">
+        <item>4</item>
+    </attr>
+    <attr name="iconSymbolTypefaceSource">
+        <item>2</item>
+    </attr>
+    <attr name="iconSymbolStyle">
+        <item>4</item>
+    </attr>
+    <attr name="iconSymbolAspectRatio">
+        <item>32</item>
+    </attr>
+    <attr name="iconSymbolAdjustForImageSize">
+        <item>8</item>
+    </attr>
+    <attr name="iconSymbolBackground">
+        <item>1</item>
+    </attr>
+    <attr name="iconSymbolEraseColor">
+        <item>16</item>
+    </attr>
+    <attr name="iconTextSize">
+        <item>64</item>
+    </attr>
+    <attr name="screenPercent">
+        <item>4</item>
+    </attr>
+    <attr name="screenDIPs">
+        <item>65</item>
+    </attr>
+    <attr name="textStyle">
+        <item>1</item>
+    </attr>
+    <attr name="textTypefaceSource">
+        <item>2</item>
+    </attr>
+    <attr name="subText">
+        <item>2</item>
+    </attr>
+    <attr name="subTextStyle">
+        <item>1</item>
+    </attr>
+    <attr name="subTextTypefaceSource">
+        <item>2</item>
+    </attr>
+    <attr name="text_checked">
+        <item>3</item>
+    </attr>
+    <attr name="text_unchecked">
+        <item>3</item>
+    </attr>
+    <attr name="icon_checked">
+        <item>3</item>
+    </attr>
+    <attr name="icon_unchecked">
+        <item>3</item>
+    </attr>
+    <attr name="icon_size">
+        <item>64</item>
+    </attr>
+    <attr name="uri">
+        <item>2</item>
+    </attr>
+    <attr name="textAspectRatio">
+        <item>32</item>
+    </attr>
+    <attr name="adjustForImageSize">
+        <item>8</item>
+    </attr>
+    <attr name="eraseColor">
+        <item>16</item>
+    </attr>
+    <attr name="uppercaseText">
+        <item>2</item>
+    </attr>
+    <attr name="deleteOnActivityDestroyOrTombstone">
+        <item>8</item>
+    </attr>
+    <attr name="icon_bg">
+        <item>16</item>
+    </attr>
+    <attr name="image_uri">
+        <item>3</item>
+    </attr>
+    <attr name="adSize">
+        <item>2</item>
+    </attr>
+    <attr name="adSizes">
+        <item>2</item>
+    </attr>
+    <attr name="adUnitId">
+        <item>2</item>
+    </attr>
+    <attr name="buttonSize">
+        <item>65537</item>
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+    </attr>
+    <attr name="colorScheme">
+        <item>65537</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="scopeUris">
+        <item>3</item>
+    </attr>
+    <attr name="imageAspectRatioAdjust">
+        <item>65536</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </attr>
+    <attr name="imageAspectRatio">
+        <item>32</item>
+    </attr>
+    <attr name="circleCrop">
+        <item>8</item>
+    </attr>
+    <attr name="mapType">
+        <item>65536</item>
+        <item>1</item>
+        <item>0</item>
+        <item>4</item>
+        <item>2</item>
+        <item>3</item>
+    </attr>
+    <attr name="cameraBearing">
+        <item>32</item>
+    </attr>
+    <attr name="cameraTargetLat">
+        <item>32</item>
+    </attr>
+    <attr name="cameraTargetLng">
+        <item>32</item>
+    </attr>
+    <attr name="cameraTilt">
+        <item>32</item>
+    </attr>
+    <attr name="cameraZoom">
+        <item>32</item>
+    </attr>
+    <attr name="liteMode">
+        <item>8</item>
+    </attr>
+    <attr name="uiCompass">
+        <item>8</item>
+    </attr>
+    <attr name="uiRotateGestures">
+        <item>8</item>
+    </attr>
+    <attr name="uiScrollGestures">
+        <item>8</item>
+    </attr>
+    <attr name="uiTiltGestures">
+        <item>8</item>
+    </attr>
+    <attr name="uiZoomControls">
+        <item>8</item>
+    </attr>
+    <attr name="uiZoomGestures">
+        <item>8</item>
+    </attr>
+    <attr name="useViewLifecycle">
+        <item>8</item>
+    </attr>
+    <attr name="zOrderOnTop">
+        <item>8</item>
+    </attr>
+    <attr name="uiMapToolbar">
+        <item>8</item>
+    </attr>
+    <attr name="ambientEnabled">
+        <item>8</item>
+    </attr>
+    <attr name="appTheme">
+        <item>65536</item>
+        <item>0</item>
+        <item>1</item>
+    </attr>
+    <attr name="environment">
+        <item>65536</item>
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+    </attr>
+    <attr name="fragmentStyle">
+        <item>1</item>
+    </attr>
+    <attr name="fragmentMode">
+        <item>65536</item>
+        <item>1</item>
+        <item>2</item>
+    </attr>
+    <attr name="buyButtonHeight">
+        <item>65600</item>
+        <item>-1</item>
+        <item>-2</item>
+    </attr>
+    <attr name="buyButtonWidth">
+        <item>65600</item>
+        <item>-1</item>
+        <item>-2</item>
+    </attr>
+    <attr name="buyButtonText">
+        <item>65536</item>
+        <item>3</item>
+        <item>2</item>
+        <item>5</item>
+        <item>1</item>
+        <item>7</item>
+        <item>4</item>
+        <item>6</item>
+    </attr>
+    <attr name="buyButtonAppearance">
+        <item>65536</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>2</item>
+        <item>3</item>
+    </attr>
+    <attr name="maskedWalletDetailsTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="maskedWalletDetailsHeaderTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="maskedWalletDetailsBackground">
+        <item>17</item>
+    </attr>
+    <attr name="maskedWalletDetailsButtonTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="maskedWalletDetailsButtonBackground">
+        <item>17</item>
+    </attr>
+    <attr name="maskedWalletDetailsLogoTextColor">
+        <item>16</item>
+    </attr>
+    <attr name="maskedWalletDetailsLogoImageType">
+        <item>65536</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+        <item>3</item>
+    </attr>
+    <attr name="windowTransitionStyle">
+        <item>65536</item>
+        <item>2</item>
+        <item>1</item>
+    </attr>
+    <attr name="switchStyle">
+        <item>1</item>
+    </attr>
+    <attr name="cardStyle">
+        <item>1</item>
+    </attr>
+    <attr name="cardBackgroundStyle">
+        <item>1</item>
+    </attr>
+    <attr name="thumb">
+        <item>1</item>
+    </attr>
+    <attr name="track">
+        <item>1</item>
+    </attr>
+    <attr name="textOn">
+        <item>2</item>
+    </attr>
+    <attr name="textOff">
+        <item>2</item>
+    </attr>
+    <attr name="thumbTextPadding">
+        <item>64</item>
+    </attr>
+    <attr name="switchTextAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="switchMinWidth">
+        <item>64</item>
+    </attr>
+    <attr name="switchPadding">
+        <item>64</item>
+    </attr>
+    <attr name="textAppearance">
+        <item>1</item>
+    </attr>
+    <attr name="textColor">
+        <item>16</item>
+    </attr>
+    <attr name="textSize">
+        <item>64</item>
+    </attr>
+    <attr name="switchTextStyle">
+        <item>1</item>
+    </attr>
+    <attr name="typeface">
+        <item>1</item>
+    </attr>
+    <attr name="fontFamily">
+        <item>1</item>
+    </attr>
+    <attr name="textColorHighlight">
+        <item>16</item>
+    </attr>
+    <attr name="textColorHint">
+        <item>16</item>
+    </attr>
+    <attr name="textColorLink">
+        <item>16</item>
+    </attr>
+    <attr name="textAllCaps">
+        <item>8</item>
+    </attr>
+</resources>

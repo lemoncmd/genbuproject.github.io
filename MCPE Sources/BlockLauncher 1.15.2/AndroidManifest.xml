@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="123" android:versionName="1.15.2" android:installLocation="auto" package="net.zhuoweizhang.mcpelauncher" platformBuildVersionCode="23" platformBuildVersionName="6.0-2166767">
+    <permission android:label="@string/permlab_mcpelauncher_addon" android:name="net.zhuoweizhang.mcpelauncher.ADDON" android:protectionLevel="dangerous|signatureOrSystem" android:description="@string/permdesc_mcpelauncher_addon" />
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="22" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-feature android:name="android.hardware.microphone" android:required="false" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <application android:theme="@style/BlockLauncherTheme" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:name="net.zhuoweizhang.mcpelauncher.BlockLauncher" android:allowBackup="false" android:largeHeap="true">
+        <activity android:theme="@style/FullscreenTheme" android:name="net.zhuoweizhang.mcpelauncher.LauncherAppActivity" android:screenOrientation="sensorLandscape" android:configChanges="keyboardHidden|orientation">
+            <meta-data android:name="android.app.lib_name" android:value="minecraftpe" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="net.zhuoweizhang.mcpelauncher.MainMenuOptionsAppActivity" />
+        <activity-alias android:name="net.zhuoweizhang.mcpelauncher.ui.MainMenuOptionsActivity" android:targetActivity="net.zhuoweizhang.mcpelauncher.MainMenuOptionsAppActivity" />
+        <activity android:name="net.zhuoweizhang.mcpelauncher.ui.NerdyStuffActivity" />
+        <activity android:name="net.zhuoweizhang.mcpelauncher.ManagePatchesAppActivity" />
+        <activity-alias android:name="net.zhuoweizhang.mcpelauncher.ui.ManagePatchesActivity" android:targetActivity="net.zhuoweizhang.mcpelauncher.ManagePatchesAppActivity" />
+        <activity android:name="net.zhuoweizhang.mcpelauncher.ui.AboutAppActivity" />
+        <activity android:name="net.zhuoweizhang.mcpelauncher.api.ImportPatchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="net.zhuoweizhang.mcpelauncher.action.IMPORT_PATCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="file" />
+                <data android:mimeType="*/*" />
+                <data android:host="*" />
+                <data android:pathPattern=".*\.mod" />
+                <data android:pathPattern=".*\..*\.mod" />
+                <data android:pathPattern=".*\..*\..*\.mod" />
+                <data android:pathPattern=".*\..*\..*\..*\.mod" />
+            </intent-filter>
+        </activity>
+        <activity-alias android:name="net.zhuoweizhang.mcpelauncher.ImportPatchActivity" android:exported="true" android:targetActivity="net.zhuoweizhang.mcpelauncher.api.ImportPatchActivity" />
+        <activity android:name="net.zhuoweizhang.mcpelauncher.ui.NoMinecraftActivity" android:exported="false" android:process=":CrashHandler" android:stateNotNeeded="true" />
+        <activity android:name="net.zhuoweizhang.mcpelauncher.ui.MinecraftNotSupportedActivity" android:exported="false" android:process=":CrashHandler" android:stateNotNeeded="true" />
+        <activity android:name="net.zhuoweizhang.mcpelauncher.api.ImportSkinActivity">
+            <intent-filter>
+                <action android:name="net.zhuoweizhang.mcpelauncher.action.SET_SKIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/png" />
+            </intent-filter>
+        </activity>
+        <activity-alias android:name="net.zhuoweizhang.mcpelauncher.ImportSkinActivity" android:exported="true" android:targetActivity="net.zhuoweizhang.mcpelauncher.api.ImportSkinActivity" />
+        <activity android:name="net.zhuoweizhang.mcpelauncher.api.ImportTexturepackActivity">
+            <intent-filter>
+                <action android:name="net.zhuoweizhang.mcpelauncher.action.SET_TEXTUREPACK" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="net.zhuoweizhang.mcpelauncher.action.REPLACE_TEXTUREPACK" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="file" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/pref_zz_manage_scripts" android:name="net.zhuoweizhang.mcpelauncher.api.ImportScriptActivity">
+            <intent-filter>
+                <action android:name="net.zhuoweizhang.mcpelauncher.action.IMPORT_SCRIPT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="file" />
+                <data android:mimeType="*/*" />
+                <data android:host="*" />
+                <data android:pathPattern=".*\.js" />
+                <data android:pathPattern=".*\..*\.js" />
+                <data android:pathPattern=".*\..*\..*\.js" />
+                <data android:pathPattern=".*\..*\..*\..*\.js" />
+            </intent-filter>
+        </activity>
+        <activity android:name="net.zhuoweizhang.mcpelauncher.ui.ManageAddonsActivity" />
+        <activity android:name="net.zhuoweizhang.mcpelauncher.ui.ManageTexturepacksActivity" />
+        <activity android:name="net.zhuoweizhang.mcpelauncher.ui.ManageSkinsActivity" />
+        <activity android:label="@string/pref_zz_manage_scripts" android:name="net.zhuoweizhang.mcpelauncher.ManageScriptsAppActivity" />
+        <activity-alias android:name="net.zhuoweizhang.mcpelauncher.ui.ManageScriptsActivity" android:targetActivity="net.zhuoweizhang.mcpelauncher.ManageScriptsAppActivity" />
+        <activity android:label="@string/pref_texture_pack" android:name="net.zhuoweizhang.mcpelauncher.ui.TexturePacksActivity" />
+        <activity android:name="com.ipaulpro.afilechooser.FileChooserActivity" />
+        <activity android:name="net.zhuoweizhang.mcpelauncher.ui.GetSubstrateActivity" android:exported="false" android:process=":CrashHandler" android:stateNotNeeded="true" />
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+        <activity android:theme="@style/OnlineidUiTheme" android:name="com.microsoft.xbox.idp.ui.AuthFlowActivity" android:windowSoftInputMode="stateUnchanged|stateAlwaysHidden|stateAlwaysVisible|adjustPan|adjustNothing" />
+        <activity android:theme="@style/OnlineidUiTheme" android:name="com.microsoft.xbox.idp.ui.ErrorActivity" />
+        <activity android:theme="@style/OnlineidUiTheme" android:name="com.microsoft.onlineid.interop.xbox.ui.SignUpActivity" />
+        <activity android:theme="@style/OnlineidUiTheme" android:name="com.microsoft.onlineid.interop.xbox.ui.SignInErrorActivity" />
+        <activity android:theme="@style/OnlineidUiTheme" android:name="com.microsoft.onlineid.interop.xbox.ui.XUIDCreationErrorActivity" />
+        <activity android:theme="@style/OnlineidUiTheme" android:name="com.microsoft.onlineid.interop.xbox.ui.WelcomeActivity" />
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:name="com.microsoft.onlineid.interop.singleaccount.SingleAccountActivity">
+            <intent-filter>
+                <action android:name="com.microsoft.onlineid.interop.singleaccount.SingleAccountActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme_MSA" android:label="@string/webflow_header" android:icon="@drawable/msa_ms_logo" android:name="com.microsoft.onlineid.authenticator.AccountAddPendingActivity" android:exported="false" />
+        <activity android:theme="@style/Theme_MSA" android:name="com.microsoft.onlineid.internal.ui.WebFlowActivity" android:exported="false" android:configChanges="orientation|screenSize" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:theme="@style/Theme_MSA" android:label="@string/webflow_header" android:icon="@drawable/msa_ms_logo" android:name="com.microsoft.onlineid.ui.AddAccountActivity" android:exported="false" android:configChanges="orientation|screenSize" android:windowSoftInputMode="adjustResize|adjustNothing">
+            <intent-filter>
+                <action android:name="com.microsoft.onlineid.internal.ADD_ACCOUNT" />
+                <action android:name="com.microsoft.onlineid.internal.SIGN_UP_ACCOUNT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme_MSA_Transparent" android:name="com.microsoft.onlineid.ui.SignOutActivity" android:exported="false" android:configChanges="orientation|screenSize" />
+        <activity android:theme="@style/Theme_MSA_Dialog" android:label="@string/webflow_header" android:icon="@drawable/msa_ms_logo" android:name="com.microsoft.onlineid.internal.ui.AccountPickerActivity" android:exported="false">
+            <intent-filter>
+                <action android:name="com.microsoft.onlineid.internal.PICK_ACCOUNT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme_MSA" android:label="@string/webflow_header" android:icon="@drawable/msa_ms_logo" android:name="com.microsoft.onlineid.internal.ui.InterruptResolutionActivity" android:exported="false" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.facebook.FacebookActivity" android:configChanges="keyboard|keyboardHidden|screenLayout" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.microsoft.xboxtcui.FbLoginShimActivity" android:configChanges="orientation|screenSize" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.microsoft.xboxtcui.FbShareShimActivity" android:configChanges="orientation|screenSize" />
+        <service android:name="com.microsoft.onlineid.internal.sso.client.BackupService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.microsoft.onlineid.internal.sso.client.PUSH_BACKUP" />
+                <action android:name="com.microsoft.onlineid.internal.sso.client.PUSH_BACKUP_IF_NEEDED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.microsoft.onlineid.internal.MsaService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.microsoft.onlineid.internal.GET_TICKET" />
+                <action android:name="com.microsoft.onlineid.internal.UPDATE_PROFILE" />
+                <action android:name="com.microsoft.onlineid.internal.SIGN_OUT" />
+                <action android:name="com.microsoft.onlineid.internal.SIGN_OUT_ALL_APPS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.microsoft.onlineid.internal.sso.service.MsaSsoService" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.microsoft.msa.action.SSO_SERVICE" />
+            </intent-filter>
+            <meta-data android:name="com.microsoft.msa.service.sso_version" android:value="2" />
+            <meta-data android:name="com.microsoft.msa.service.sdk_version" android:value="@string/sdk_version_name" />
+        </service>
+        <meta-data android:name="com.sec.android.support.multiwindow" android:value="true" />
+    </application>
+</manifest>

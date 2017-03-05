@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="xbox_live_notification">res/raw/xbox_live_notification.mp3</raw>
+    <raw name="xboxservices">res/raw/xboxservices.config</raw>
+    <raw name="gtm_analytics">res/raw/gtm_analytics</raw>
+</resources>

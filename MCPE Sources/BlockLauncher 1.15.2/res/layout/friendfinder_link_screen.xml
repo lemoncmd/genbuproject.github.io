@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.xbox.xle.ui.XLERootView xmlns:android="http://schemas.android.com/apk/res/android" android:padding="@dimen/friendFinderPageMargin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.microsoft.xbox.toolkit.ui.FastProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:visibility="visible" android:layout_width="UNKNOWN_DATA_0x4001" android:layout_height="UNKNOWN_DATA_0x4001" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/rotate_loading_rings_small" />
+    </FrameLayout>
+</com.microsoft.xbox.xle.ui.XLERootView>

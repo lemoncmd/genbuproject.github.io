@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" ads:orientation="vertical" ads:layout_width="match_parent" ads:layout_height="match_parent">
+    <com.google.android.gms.ads.AdView ads:id="@+id/ad" ads:layout_width="wrap_content" ads:layout_height="wrap_content" ads:layout_alignParentBottom="true" ads:adSize="SMART_BANNER" ads:adUnitId="a151b8f9c5d33b5" />
+    <ListView ads:id="0x102000a" ads:layout_width="match_parent" ads:layout_height="match_parent" ads:layout_alignParentTop="true" />
+    <ImageButton ads:id="@+id/manage_patches_import_button" ads:layout_margin="16dp" ads:src="@drawable/ic_add_white_24dp" ads:layout_above="@+id/ad" ads:layout_alignParentRight="true" style="@style/simple_fab" />
+</RelativeLayout>

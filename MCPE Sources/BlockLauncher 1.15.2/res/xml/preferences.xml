@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory custom:title="@string/pref_textures_title" custom:key="zz_textures_group">
+        <net.zhuoweizhang.mcpelauncher.ui.SwitchPreference custom:title="@string/pref_texture_pack" custom:key="zz_texture_pack_enable" custom:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory custom:title="@string/pref_addons_title">
+        <net.zhuoweizhang.mcpelauncher.ui.SwitchPreference custom:title="@string/pref_zz_safe_mode" custom:key="zz_safe_mode" custom:summary="@string/pref_zz_safe_mode_summary" custom:defaultValue="false" />
+        <net.zhuoweizhang.mcpelauncher.ui.SwitchPreference custom:title="@string/manage_patches" custom:key="zz_manage_patches" custom:defaultValue="true" />
+        <net.zhuoweizhang.mcpelauncher.ui.SwitchPreference custom:title="@string/manage_addons" custom:key="zz_load_native_addons" custom:defaultValue="true" />
+        <net.zhuoweizhang.mcpelauncher.ui.SwitchPreference custom:title="@string/pref_zz_script_enable" custom:key="zz_script_enable" custom:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory custom:title="@string/pref_gfx_title">
+        <CheckBoxPreference custom:title="@string/pref_zz_immersive_mode" custom:key="zz_immersive_mode" custom:summary="@string/pref_zz_immersive_mode_summary" custom:defaultValue="false" />
+        <EditTextPreference custom:title="@string/pref_zz_custom_dpi" custom:key="zz_custom_dpi" custom:summary="@string/pref_zz_custom_dpi_summary" custom:defaultValue="" custom:inputType="textCapWords|number|numberSigned|numberDecimal|numberPassword|phone" />
+        <net.zhuoweizhang.mcpelauncher.ui.SwitchPreference custom:title="@string/pref_zz_desktop_gui" custom:key="zz_desktop_gui" custom:summary="@string/pref_zz_desktop_gui_summary" custom:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory custom:title="@string/pref_ctrl_title">
+        <CheckBoxPreference custom:title="@string/pref_zz_longvibration" custom:key="zz_longvibration" custom:summary="@string/pref_zz_longvibration_summary" custom:defaultValue="false" />
+        <CheckBoxPreference custom:title="@string/pref_zz_command_history" custom:key="zz_command_history" custom:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory custom:title="@string/pref_other_title">
+        <CheckBoxPreference custom:title="@string/pref_zz_hovercar_hide" custom:key="zz_hovercar_hide" custom:defaultValue="false" />
+        <net.zhuoweizhang.mcpelauncher.ui.SwitchPreference custom:title="@string/pref_zz_theme_dark" custom:key="zz_theme_dark" custom:defaultValue="false" />
+        <CheckBoxPreference custom:title="@string/pref_zz_show_insert_text" custom:key="zz_show_insert_text" custom:defaultValue="false" />
+        <CheckBoxPreference custom:title="@string/pref_zz_legacy_keyboard_input" custom:key="zz_legacy_keyboard_input" custom:summary="@string/pref_zz_legacy_keyboard_input_summary" custom:defaultValue="false" />
+        <CheckBoxPreference custom:title="@string/pref_zz_legacy_live_patch" custom:key="zz_legacy_live_patch" custom:summary="@string/pref_zz_legacy_live_patch_summary" custom:defaultValue="false" />
+        <CheckBoxPreference custom:title="@string/pref_zz_signal_handler" custom:key="zz_signal_handler" custom:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory custom:title="@string/pref_support_title">
+        <Preference custom:title="@string/nerdy_stuff_page">
+            <intent custom:targetPackage="net.zhuoweizhang.mcpelauncher" custom:targetClass="net.zhuoweizhang.mcpelauncher.ui.NerdyStuffActivity" />
+        </Preference>
+        <ListPreference custom:title="@string/pref_zz_language_override" custom:key="zz_language_override" />
+        <Preference custom:title="@string/advertising_privacy_policy">
+            <intent custom:action="android.intent.action.VIEW" custom:data="http://www.google.com/policies/privacy/partners/" />
+        </Preference>
+        <Preference custom:title="@string/about_about" custom:key="zz_about" />
+        <Preference custom:title="@string/about_go_to_forums" custom:key="zz_go_to_forums" />
+    </PreferenceCategory>
+</PreferenceScreen>

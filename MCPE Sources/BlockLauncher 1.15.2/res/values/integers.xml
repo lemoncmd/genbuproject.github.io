@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="default_text_view_ellipsize_lines">8</integer>
+    <integer name="google_play_services_version">8487000</integer>
+    <integer name="max_num_patches">3</integer>
+    <integer name="max_num_scripts">-1</integer>
+</resources>

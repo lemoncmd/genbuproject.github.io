@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="action_dismiss_account_picker">res/menu/action_dismiss_account_picker.xml</menu>
+    <menu name="action_dismiss_account_picker">res/menu-v11/action_dismiss_account_picker.xml</menu>
+    <menu name="ab_master">res/menu/ab_master.xml</menu>
+    <menu name="ab_master">res/menu-v11/ab_master.xml</menu>
+    <menu name="manage_textures_menu">res/menu/manage_textures_menu.xml</menu>
+    <menu name="manage_textures_menu">res/menu-v11/manage_textures_menu.xml</menu>
+</resources>

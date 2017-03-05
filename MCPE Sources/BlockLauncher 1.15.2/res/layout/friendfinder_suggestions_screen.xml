@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.microsoft.xbox.xle.ui.XLERootView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/friendfinder_suggestions_empty_header_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/friendfinder_suggestions_header" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.microsoft.xbox.toolkit.ui.CustomTypefaceTextView android:id="@+id/friendfinder_suggestions_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/friendFinderPageMargin" style="@style/FriendFinder_Title" />
+            <com.microsoft.xbox.toolkit.ui.CustomTypefaceTextView android:id="@+id/friendfinder_suggestions_subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/friendFinderPageMargin" android:layout_marginRight="@dimen/friendFinderPageMargin" android:layout_marginBottom="@dimen/friendFinderPageMargin" style="@style/standard_text" />
+        </LinearLayout>
+    </FrameLayout>
+    <com.microsoft.xbox.toolkit.ui.XLEButton android:id="@+id/friendfinder_suggestions_button" android:layout_width="UNKNOWN_DATA_0xfa01" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="@dimen/friendFinderPageMargin" android:text="@string/FriendFinder_Phone_Next_ButtonText" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/friendfinder_button" />
+    <com.microsoft.xbox.toolkit.ui.XLEListView android:id="@+id/friendfinder_suggestions_list" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/common_button_background" android:divider="@functionobject/JAVA_UNSUPPORTED_TYPE" android:dividerHeight="0dp" android:layout_above="@+id/friendfinder_suggestions_button" android:layout_below="@+id/friendfinder_suggestions_empty_header_container" />
+    <FrameLayout android:id="@+id/friendfinder_suggestions_loading" android:background="@color/backgroundColor" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.microsoft.xbox.toolkit.ui.FastProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:visibility="visible" android:layout_width="UNKNOWN_DATA_0x4001" android:layout_height="UNKNOWN_DATA_0x4001" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/rotate_loading_rings_small" />
+    </FrameLayout>
+</com.microsoft.xbox.xle.ui.XLERootView>

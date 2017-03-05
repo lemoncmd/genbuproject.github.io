@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.CardView">
+        <item>@dimen/cardview_default_radius</item>
+        <item>@dimen/cardview_default_elevation</item>
+        <item>@dimen/cardview_default_elevation</item>
+        <item>false</item>
+        <item>true</item>
+    </style>
+    <style name="CardView">
+    </style>
+    <style name="CardView.Light">
+        <item>@color/cardview_light_background</item>
+    </style>
+    <style name="CardView.Dark">
+        <item>@color/cardview_dark_background</item>
+    </style>
+    <style name="MessengerButton">
+        <item>true</item>
+    </style>
+    <style name="MessengerButton.Blue">
+        <item>@drawable/messenger_button_blue_bg_selector</item>
+    </style>
+    <style name="MessengerButton.Blue.Large">
+        <item>-1</item>
+        <item>44dp</item>
+        <item>16dp</item>
+        <item>16dp</item>
+    </style>
+    <style name="MessengerButton.Blue.Small">
+        <item>158dp</item>
+        <item>36dp</item>
+    </style>
+    <style name="MessengerButton.White">
+        <item>@drawable/messenger_button_white_bg_selector</item>
+    </style>
+    <style name="MessengerButton.White.Large">
+        <item>-1</item>
+        <item>44dp</item>
+        <item>16dp</item>
+        <item>16dp</item>
+    </style>
+    <style name="MessengerButton.White.Small">
+        <item>158dp</item>
+        <item>36dp</item>
+    </style>
+    <style name="MessengerButtonText">
+        <item>14sp</item>
+        <item>1</item>
+        <item>11</item>
+        <item>11</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>4dp</item>
+    </style>
+    <style name="MessengerButtonText">
+        <item>14sp</item>
+        <item>1</item>
+        <item>11</item>
+        <item>11</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>4dp</item>
+        <item>true</item>
+    </style>
+    <style name="MessengerButtonText.Blue">
+        <item>#ffffffff</item>
+    </style>
+    <style name="MessengerButtonText.Blue.Large">
+        <item>@drawable/messenger_bubble_large_white</item>
+    </style>
+    <style name="MessengerButtonText.Blue.Small">
+        <item>@drawable/messenger_bubble_small_white</item>
+    </style>
+    <style name="MessengerButtonText.White">
+        <item>#ff0084ff</item>
+    </style>
+    <style name="MessengerButtonText.White.Large">
+        <item>@drawable/messenger_bubble_large_blue</item>
+    </style>
+    <style name="MessengerButtonText.White.Small">
+        <item>@drawable/messenger_bubble_small_blue</item>
+    </style>
+    <style name="tooltip_bubble_text">
+        <item>12sp</item>
+        <item>?unknown_ref: 106000b</item>
+        <item>3</item>
+        <item>#40000000</item>
+        <item>-1.0</item>
+        <item>0.25</item>
+    </style>
+    <style name="com_facebook_button">
+        <item>14dp</item>
+        <item>@color/com_facebook_button_text_color</item>
+        <item>11</item>
+        <item>@drawable/com_facebook_button_background</item>
+        <item>8dp</item>
+        <item>5dp</item>
+        <item>8dp</item>
+        <item>5dp</item>
+        <item>6dp</item>
+    </style>
+    <style name="com_facebook_button_like">
+        <item>@drawable/com_facebook_button_like_background</item>
+    </style>
+    <style name="com_facebook_loginview_default_style">
+        <item>@drawable/com_facebook_button_icon</item>
+    </style>
+    <style name="com_facebook_loginview_silver_style">
+        <item>#ff4b5164</item>
+        <item>@drawable/com_facebook_button_login_silver_background</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="com_facebook_button_send">
+        <item>@color/com_facebook_send_button_text_color</item>
+        <item>@drawable/com_facebook_button_send_background</item>
+        <item>@string/com_facebook_send_button_text</item>
+        <item>@drawable/com_facebook_send_button_icon</item>
+    </style>
+    <style name="com_facebook_button_share">
+        <item>@string/com_facebook_share_button_text</item>
+        <item>@drawable/com_facebook_button_icon</item>
+    </style>
+    <style name="com_facebook_auth_dialog">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="accountPickerUserTileUserNameBidirectional">
+    </style>
+    <style name="signOutCheckBoxBidirectional">
+    </style>
+    <style name="userTileImageBidirectional">
+    </style>
+    <style name="Theme.MSA">
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="Theme.MSA">
+        <item>?unknown_ref: 0</item>
+        <item>@style/actionBar</item>
+    </style>
+    <style name="Theme.MSA.Dialog">
+        <item>false</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>3</item>
+    </style>
+    <style name="Theme.MSA.Dialog">
+        <item>false</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>3</item>
+        <item>@style/actionBar</item>
+        <item>true</item>
+    </style>
+    <style name="Theme.MSA.DialogWhenLarge">
+    </style>
+    <style name="Theme.MSA.DialogWhenLarge">
+        <item>@style/actionBar</item>
+    </style>
+    <style name="Theme.MSA.NoActionBar">
+        <item>true</item>
+    </style>
+    <style name="Theme.MSA.NoActionBar">
+        <item>true</item>
+        <item>false</item>
+    </style>
+    <style name="Theme.MSA.Transparent">
+        <item>?unknown_ref: 106000d</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 106000d</item>
+    </style>
+    <style name="accountPickerListView">
+        <item>@dimen/marginLarge</item>
+        <item>?unknown_ref: 106000d</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="accountPickerUserTile">
+        <item>?unknown_ref: 0</item>
+        <item>@dimen/accountPickerMargin</item>
+        <item>@dimen/accountPickerMargin</item>
+    </style>
+    <style name="accountPickerUserTileUserName">
+        <item>10</item>
+        <item>-2</item>
+        <item>@dimen/userTile</item>
+        <item>@dimen/marginMedium</item>
+        <item>@id/imageUserTile</item>
+    </style>
+    <style name="accountPickerUserTileUserNameRtl">
+        <item>0dp</item>
+        <item>@dimen/marginMedium</item>
+        <item>@id/imageUserTile</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="accountTile">
+        <item>@dimen/marginLarge</item>
+    </style>
+    <style name="accountTileOverflowMenu">
+        <item>?unknown_ref: 106000d</item>
+        <item>@dimen/userTile</item>
+        <item>@dimen/userTile</item>
+        <item>@drawable/msa_overflow_menu</item>
+        <item>true</item>
+    </style>
+    <style name="actionBar">
+        <item>@color/appBackground</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="actionBar">
+        <item>@color/appBackground</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/textHeader</item>
+    </style>
+    <style name="activity">
+        <item>@color/appBackground</item>
+        <item>-1</item>
+        <item>-1</item>
+    </style>
+    <style name="button">
+        <item>@color/button_text</item>
+        <item>3</item>
+        <item>@drawable/button</item>
+        <item>5dp</item>
+        <item>5dp</item>
+        <item>3dp</item>
+        <item>-1</item>
+        <item>@dimen/buttonHeight</item>
+        <item>@dimen/buttonHeight</item>
+        <item>@dimen/buttonHeight</item>
+        <item>true</item>
+        <item>1.0</item>
+        <item>SegoeUISemiBold</item>
+    </style>
+    <style name="dividerButtons">
+        <item>?unknown_ref: 106000d</item>
+        <item>@dimen/marginLarge</item>
+        <item>-1</item>
+        <item>0.0</item>
+    </style>
+    <style name="listView">
+        <item>-1</item>
+        <item>-1</item>
+        <item>@dimen/marginMedium</item>
+        <item>?unknown_ref: 106000d</item>
+        <item>@dimen/marginLarge</item>
+        <item>true</item>
+    </style>
+    <style name="overflowMenu">
+        <item>@drawable/msa_overflow_menu</item>
+        <item>@dimen/menuWidth</item>
+        <item>@dimen/menuHeight</item>
+        <item>@dimen/menuMarginRight</item>
+        <item>@dimen/menuHeight</item>
+        <item>true</item>
+    </style>
+    <style name="popupMessage">
+        <item>0.5</item>
+        <item>30</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>true</item>
+    </style>
+    <style name="signOutCheckBox">
+        <item>-1</item>
+        <item>-2</item>
+        <item>false</item>
+    </style>
+    <style name="signOutCheckBoxRtl">
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_attr_ref: 101021a</item>
+    </style>
+    <style name="textDefault">
+        <item>13.33sp</item>
+        <item>#ff191919</item>
+        <item>#00000000</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>false</item>
+        <item>SegoeUI</item>
+    </style>
+    <style name="textHeader">
+        <item>#ff585858</item>
+        <item>SegoeUISemiBold</item>
+    </style>
+    <style name="textLarge">
+        <item>16sp</item>
+    </style>
+    <style name="textLargest">
+        <item>45.3sp</item>
+        <item>SegoeUILight</item>
+    </style>
+    <style name="textLink">
+        <item>true</item>
+    </style>
+    <style name="textPopupMessageBody">
+        <item>@color/popupMessageText</item>
+    </style>
+    <style name="textPopupMessageHeader">
+        <item>20.6sp</item>
+        <item>@color/popupMessageText</item>
+    </style>
+    <style name="textStaticPage">
+        <item>-1</item>
+        <item>-2</item>
+        <item>@dimen/marginLarge</item>
+        <item>@dimen/marginLarge</item>
+        <item>@dimen/marginXLarge</item>
+    </style>
+    <style name="userTile">
+        <item>@color/userTileBackground</item>
+        <item>@dimen/marginLarge</item>
+        <item>@dimen/marginLarge</item>
+        <item>@dimen/marginLarge</item>
+        <item>@dimen/marginLarge</item>
+        <item>-1</item>
+        <item>-2</item>
+    </style>
+    <style name="userTileDisplayName">
+        <item>-2</item>
+        <item>-2</item>
+        <item>@dimen/marginMedium</item>
+        <item>@id/imageUserTile</item>
+        <item>@id/imageUserTile</item>
+    </style>
+    <style name="userTileEmail">
+        <item>@id/textFirstLast</item>
+        <item>@id/textFirstLast</item>
+    </style>
+    <style name="userTileImage">
+        <item>@dimen/userTile</item>
+        <item>@dimen/userTile</item>
+        <item>@drawable/msa_default_user_tile</item>
+        <item>true</item>
+        <item>true</item>
+        <item>@string/user_tile_image_content_description</item>
+    </style>
+    <style name="userTileImageRtl">
+        <item>false</item>
+        <item>true</item>
+    </style>
+    <style name="Base">
+        <item>@color/xbid_white_primary</item>
+    </style>
+    <style name="Header">
+        <item>3</item>
+    </style>
+    <style name="Header.UserName">
+        <item>16sp</item>
+        <item>1</item>
+        <item>@color/xbid_white_primary</item>
+    </style>
+    <style name="Header.Email">
+        <item>14sp</item>
+        <item>@color/xbid_white_secondary</item>
+    </style>
+    <style name="Body">
+        <item>@color/xbid_white_primary</item>
+        <item>3</item>
+    </style>
+    <style name="Body.Title">
+        <item>22sp</item>
+        <item>@color/xbid_white_primary</item>
+    </style>
+    <style name="Body.TitleComment">
+        <item>18sp</item>
+        <item>@color/xbid_white_secondary</item>
+    </style>
+    <style name="Body.TextInput">
+        <item>18sp</item>
+        <item>@color/xbid_white_primary</item>
+        <item>@color/xbid_white_secondary</item>
+        <item>@color/xbid_button_background</item>
+        <item>3dp</item>
+        <item>true</item>
+    </style>
+    <style name="Body.TextInputComment">
+    </style>
+    <style name="Body.BottomButton">
+        <item>@drawable/xbid_button_background</item>
+    </style>
+    <style name="Body.BottomButton">
+        <item>@drawable/xbid_button_background</item>
+        <item>false</item>
+    </style>
+    <style name="Body.GamerTag">
+        <item>18sp</item>
+        <item>@color/xbid_white_primary</item>
+    </style>
+    <style name="Body.UserName">
+        <item>14sp</item>
+        <item>@color/xbid_white_primary</item>
+    </style>
+    <style name="Body.SectionTitle">
+        <item>14sp</item>
+        <item>1</item>
+        <item>@color/xbid_white_primary</item>
+    </style>
+    <style name="Body.SectionText">
+        <item>12sp</item>
+        <item>@color/xbid_white_secondary</item>
+    </style>
+    <style name="Body.SuggestionText">
+    </style>
+    <style name="Error">
+        <item>20sp</item>
+        <item>@color/xbid_white_primary</item>
+    </style>
+    <style name="Error.Greeting">
+    </style>
+    <style name="Error.Normal">
+    </style>
+    <style name="Error.Button">
+        <item>@drawable/xbid_button_background</item>
+    </style>
+    <style name="Error.Button">
+        <item>@drawable/xbid_button_background</item>
+        <item>false</item>
+    </style>
+    <style name="OnlineidUiTheme">
+        <item>@color/xbid_activity_background</item>
+    </style>
+    <style name="TcuiDialog">
+        <item>@style/TcuiDialogAnimations</item>
+    </style>
+    <style name="TcuiDialogAnimations">
+        <item>?unknown_ref: 10a0000</item>
+        <item>?unknown_ref: 10a0001</item>
+    </style>
+    <style name="SUI_base">
+        <item>3</item>
+        <item>fonts/SegoeWP.ttf</item>
+    </style>
+    <style name="SUI_white">
+        <item>@color/textSoftWhite</item>
+    </style>
+    <style name="FriendFinder_Title">
+        <item>24sp</item>
+    </style>
+    <style name="xbox_symbol">
+        <item>18dp</item>
+        <item>@color/textSoftWhite</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>fonts/SegXboxSymbol.ttf</item>
+    </style>
+    <style name="RadioButtonText">
+        <item>@dimen/settingsRadioButtonTextSize</item>
+        <item>@color/XboxWhite</item>
+    </style>
+    <style name="RadioButtonSubText">
+        <item>14sp</item>
+        <item>@color/textSoftWhite</item>
+    </style>
+    <style name="ButtonSubText_grey">
+        <item>14sp</item>
+        <item>@color/white_60_percent</item>
+    </style>
+    <style name="SUI_SB_base">
+        <item>fonts/SegoeWP-Semibold.ttf</item>
+    </style>
+    <style name="standard_text">
+        <item>16sp</item>
+    </style>
+    <style name="standard_subText">
+        <item>@color/white_60_percent</item>
+    </style>
+    <style name="settings_checkbox_text">
+        <item>@dimen/settingsCheckboxTextSize</item>
+        <item>@color/XboxGray6</item>
+    </style>
+    <style name="xle_button">
+        <item>18sp</item>
+        <item>@color/xleiconbutton_textcolor_states</item>
+        <item>@drawable/xleiconbutton_background_states</item>
+        <item>fonts/SegoeWP.ttf</item>
+        <item>18dp</item>
+        <item>fonts/SegXboxSymbol.ttf</item>
+    </style>
+    <style name="friendfinder_button">
+        <item>18sp</item>
+        <item>@color/xleiconbutton_textcolor_states</item>
+        <item>11</item>
+        <item>@drawable/friendfinder_button_border</item>
+        <item>5dp</item>
+        <item>true</item>
+        <item>fonts/SegoeWP.ttf</item>
+        <item>18dp</item>
+        <item>fonts/SegXboxSymbol.ttf</item>
+    </style>
+    <style name="XboxGreen_RadioButton">
+    </style>
+    <style name="Theme.IAPTheme">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>false</item>
+    </style>
+    <style name="Theme.AppInvite.Preview.Base">
+    </style>
+    <style name="Theme.AppInvite.Preview.Base">
+    </style>
+    <style name="Theme.AppInvite.Preview.Base">
+    </style>
+    <style name="Theme.AppInvite.Preview">
+        <item>?unknown_ref: 106000b</item>
+        <item>?unknown_ref: 106000b</item>
+        <item>true</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsTextAppearance">
+        <item>14sp</item>
+        <item>0</item>
+        <item>@color/wallet_secondary_text_holo_dark</item>
+        <item>@color/wallet_highlighted_text_holo_dark</item>
+        <item>@color/wallet_hint_foreground_holo_dark</item>
+        <item>@color/wallet_holo_blue_light</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsHeaderTextAppearance">
+        <item>1</item>
+    </style>
+    <style name="WalletFragmentDefaultButtonTextAppearance">
+        <item>18sp</item>
+        <item>0</item>
+        <item>@color/wallet_primary_text_holo_light</item>
+        <item>@color/wallet_highlighted_text_holo_light</item>
+        <item>@color/wallet_hint_foreground_holo_light</item>
+        <item>@color/wallet_link_text_light</item>
+    </style>
+    <style name="WalletFragmentDefaultStyle">
+        <item>48dp</item>
+        <item>-1</item>
+        <item>5</item>
+        <item>4</item>
+        <item>@style/WalletFragmentDefaultDetailsTextAppearance</item>
+        <item>@style/WalletFragmentDefaultDetailsHeaderTextAppearance</item>
+        <item>@color/wallet_bright_foreground_holo_light</item>
+        <item>@style/WalletFragmentDefaultButtonTextAppearance</item>
+        <item>?unknown_ref: 1080004</item>
+        <item>@color/wallet_bright_foreground_holo_dark</item>
+        <item>3</item>
+    </style>
+    <style name="fileName">
+        <item>18sp</item>
+        <item>4</item>
+        <item>13</item>
+        <item>6dp</item>
+        <item>12dp</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>-1</item>
+    </style>
+    <style name="fileIcon">
+        <item>10</item>
+        <item>12dp</item>
+    </style>
+    <style name="ButtonBar">
+    </style>
+    <style name="ButtonBar">
+    </style>
+    <style name="ButtonBar">
+    </style>
+    <style name="ButtonBar.Button">
+        <item>?unknown_attr_ref: 1010036</item>
+    </style>
+    <style name="ButtonBar.Button">
+        <item>@color/theme_primary_accent</item>
+    </style>
+    <style name="ButtonBar.Button">
+        <item>@color/theme_primary_accent</item>
+    </style>
+    <style name="switch_dark">
+        <item>@drawable/switch_inner_holo_dark</item>
+        <item>@drawable/switch_track_holo_dark</item>
+        <item>@string/textOn</item>
+        <item>@string/textOff</item>
+        <item>12dp</item>
+        <item>@style/TextAppearance</item>
+        <item>96dp</item>
+        <item>16dp</item>
+    </style>
+    <style name="switch_light">
+        <item>@drawable/switch_inner_holo_light</item>
+        <item>@drawable/switch_track_holo_light</item>
+        <item>@string/textOn</item>
+        <item>@string/textOff</item>
+        <item>12dp</item>
+        <item>@style/TextAppearance</item>
+        <item>96dp</item>
+        <item>16dp</item>
+    </style>
+    <style name="TextAppearance">
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>16sp</item>
+        <item>?unknown_attr_ref: 1010099</item>
+        <item>?unknown_attr_ref: 101009a</item>
+        <item>?unknown_attr_ref: 101009b</item>
+    </style>
+    <style name="card_light">
+        <item>@color/card_background_light</item>
+    </style>
+    <style name="card_background_light">
+        <item>@color/card_list_background_color_light</item>
+    </style>
+    <style name="card_dark">
+        <item>@color/card_background_dark</item>
+    </style>
+    <style name="card_background_dark">
+        <item>@color/card_list_background_color_dark</item>
+    </style>
+    <style name="simple_fab">
+        <item>@drawable/simple_fab_background</item>
+        <item>56dp</item>
+        <item>56dp</item>
+    </style>
+    <style name="simple_fab">
+        <item>@drawable/simple_fab_background</item>
+        <item>56dp</item>
+        <item>56dp</item>
+        <item>6dp</item>
+    </style>
+    <style name="FullscreenTheme">
+        <item>@style/switch_light</item>
+        <item>@style/card_light</item>
+        <item>@style/card_background_light</item>
+    </style>
+    <style name="FullscreenTheme">
+        <item>@style/BlockLauncherActionBarStyle</item>
+        <item>@style/switch_light</item>
+        <item>@style/card_light</item>
+        <item>@style/card_background_light</item>
+    </style>
+    <style name="FullscreenTheme">
+        <item>@style/BlockLauncherActionBarStyle</item>
+        <item>@style/switch_light</item>
+        <item>@style/card_light</item>
+        <item>@style/card_background_light</item>
+    </style>
+    <style name="FullscreenTheme">
+        <item>@color/theme_primary</item>
+        <item>@color/theme_primary_dark</item>
+        <item>@color/theme_primary_accent</item>
+        <item>@style/switch_light</item>
+        <item>@style/card_light</item>
+        <item>@style/card_background_light</item>
+    </style>
+    <style name="FullscreenDarkTheme">
+        <item>@style/switch_dark</item>
+        <item>@style/card_dark</item>
+        <item>@style/card_background_dark</item>
+    </style>
+    <style name="FullscreenDarkTheme">
+        <item>@style/BlockLauncherActionBarStyle</item>
+        <item>@style/switch_dark</item>
+        <item>@style/card_dark</item>
+        <item>@style/card_background_dark</item>
+    </style>
+    <style name="FullscreenDarkTheme">
+        <item>@style/BlockLauncherActionBarStyle</item>
+        <item>@style/switch_dark</item>
+        <item>@style/card_dark</item>
+        <item>@style/card_background_dark</item>
+    </style>
+    <style name="FullscreenDarkTheme">
+        <item>@color/theme_primary</item>
+        <item>@color/theme_primary_dark</item>
+        <item>@color/theme_primary_accent</item>
+        <item>@style/switch_dark</item>
+        <item>@style/card_dark</item>
+        <item>@style/card_background_dark</item>
+    </style>
+    <style name="BlockLauncherTheme">
+        <item>@style/switch_light</item>
+        <item>@style/card_light</item>
+        <item>@style/card_background_light</item>
+    </style>
+    <style name="BlockLauncherTheme">
+        <item>@style/BlockLauncherActionBarStyle</item>
+        <item>@style/switch_light</item>
+        <item>@style/card_light</item>
+        <item>@style/card_background_light</item>
+    </style>
+    <style name="BlockLauncherTheme">
+        <item>@style/BlockLauncherActionBarStyle</item>
+        <item>@style/switch_light</item>
+        <item>@style/card_light</item>
+        <item>@style/card_background_light</item>
+    </style>
+    <style name="BlockLauncherTheme">
+        <item>@color/theme_primary</item>
+        <item>@color/theme_primary_dark</item>
+        <item>@color/theme_primary_accent</item>
+        <item>@style/switch_light</item>
+        <item>@style/card_light</item>
+        <item>@style/card_background_light</item>
+    </style>
+    <style name="BlockLauncherDarkTheme">
+        <item>@style/switch_dark</item>
+        <item>@style/card_dark</item>
+        <item>@style/card_background_dark</item>
+    </style>
+    <style name="BlockLauncherDarkTheme">
+        <item>@style/BlockLauncherActionBarStyle</item>
+        <item>@style/switch_dark</item>
+        <item>@style/card_dark</item>
+        <item>@style/card_background_dark</item>
+    </style>
+    <style name="BlockLauncherDarkTheme">
+        <item>@style/BlockLauncherActionBarStyle</item>
+        <item>@style/switch_dark</item>
+        <item>@style/card_dark</item>
+        <item>@style/card_background_dark</item>
+    </style>
+    <style name="BlockLauncherDarkTheme">
+        <item>@color/theme_primary</item>
+        <item>@color/theme_primary_dark</item>
+        <item>@color/theme_primary_accent</item>
+        <item>@style/switch_dark</item>
+        <item>@style/card_dark</item>
+        <item>@style/card_background_dark</item>
+    </style>
+    <style name="BlockLauncherActionBarStyle">
+    </style>
+    <style name="BlockLauncherActionBarStyle">
+        <item>@color/theme_primary</item>
+    </style>
+    <style name="BlockLauncherActionBarStyle">
+        <item>@color/theme_primary</item>
+    </style>
+</resources>

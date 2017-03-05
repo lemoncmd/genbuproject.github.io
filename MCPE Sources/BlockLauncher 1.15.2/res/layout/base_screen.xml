@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" msaui:orientation="vertical" msaui:id="@+id/baseScreenView" style="@style/activity">
+    <com.microsoft.onlineid.internal.ui.ProgressView msaui:id="@+id/baseScreenProgressView" msaui:focusable="false" msaui:visibility="invisible" msaui:layout_width="match_parent" msaui:layout_height="UNKNOWN_DATA_0x7f06001e" />
+    <com.microsoft.onlineid.ui.StyledTextView msaui:id="@+id/baseScreenHeader" msaui:focusable="false" msaui:layout_width="match_parent" msaui:layout_height="wrap_content" msaui:layout_marginLeft="@dimen/marginLarge" msaui:layout_marginTop="@dimen/marginSmall" msaui:layout_marginRight="@dimen/marginLarge" style="@style/textLargest" />
+    <com.microsoft.onlineid.ui.StyledTextView msaui:id="@+id/baseScreenBody" msaui:focusable="false" msaui:layout_width="match_parent" msaui:layout_height="wrap_content" msaui:layout_marginLeft="@dimen/marginLarge" msaui:layout_marginTop="@dimen/marginLarge" msaui:layout_marginRight="@dimen/marginLarge" style="@style/textLarge" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" style="@style/activity">
+    <com.microsoft.onlineid.internal.ui.ProgressView msaui:id="@+id/progressView" msaui:visibility="invisible" msaui:layout_width="match_parent" msaui:layout_height="UNKNOWN_DATA_0x7f06001e" />
+    <com.microsoft.onlineid.ui.StyledTextView msaui:textAppearance="@style/textLargest" msaui:id="@+id/static_page_header" msaui:layout_width="match_parent" msaui:layout_height="wrap_content" msaui:layout_marginLeft="@dimen/marginLarge" msaui:layout_marginTop="@dimen/marginSmall" msaui:layout_marginRight="@dimen/marginLarge" msaui:layout_marginBottom="@dimen/marginMedium" msaui:layout_below="@+id/progressView" msaui:layout_alignParentTop="true" style="@style/textLargest" />
+    <com.microsoft.onlineid.ui.StyledTextView msaui:id="@+id/static_page_body_first" msaui:layout_below="@+id/static_page_header" style="@style/textStaticPage" />
+    <com.microsoft.onlineid.ui.StyledTextView msaui:id="@+id/static_page_body_second" msaui:layout_below="@+id/static_page_body_first" style="@style/textStaticPage" />
+</RelativeLayout>
